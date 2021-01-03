@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter01" />
+        <module name="chapter02" />
+        <module name="chapter03" />
+        <module name="chapter04" />
+        <module name="chapter05" />
+        <module name="chapter06" />
+        <module name="chapter07" />
+        <module name="chapter08" />
+        <module name="chapter09" />
+        <module name="chapter10" />
+        <module name="chapter11" />
+        <module name="chapter18" />
+        <module name="chatper05" />
+        <module name="jvmByAtguigu" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter01" target="1.5" />
+      <module name="chapter02" target="1.5" />
+      <module name="chapter03" target="1.5" />
+      <module name="chapter04" target="1.5" />
+      <module name="chapter05" target="1.5" />
+      <module name="chapter06" target="1.5" />
+      <module name="chapter07" target="1.5" />
+      <module name="chapter08" target="1.5" />
+      <module name="chapter09" target="1.5" />
+      <module name="chapter10" target="1.5" />
+      <module name="chapter11" target="1.5" />
+      <module name="chapter18" target="1.5" />
+      <module name="chatper05" target="1.5" />
+      <module name="jvmByAtguigu" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
