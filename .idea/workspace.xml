@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba1f0420-2ad5-4b06-b9b6-46edac0c259b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter01/src/main/java/com/tiza/jvm/HelloApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter01/src/main/java/com/tiza/jvm/HelloLoader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassInitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassInitTestFatherSon.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest02.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest03.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/DeadThreadTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/chapter02/src/main/java/java/lang/LeoStart.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chapter02/chapter02.iml" afterPath="$PROJECT_DIR$/chapter02/chapter02.iml" />
-      <change beforePath="$PROJECT_DIR$/chapter02/pom.xml" afterPath="$PROJECT_DIR$/chapter02/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/chapter02/target/classes/com/tiza/jvm/chapter02/ClassLoaderTest03.class" afterPath="$PROJECT_DIR$/chapter02/target/classes/com/tiza/jvm/chapter02/ClassLoaderTest03.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +33,7 @@
       <file leaf-file-name="ClassInitTestFatherSon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassInitTestFatherSon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="483">
               <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
@@ -52,7 +43,7 @@
       <file leaf-file-name="DeadThreadTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/DeadThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="299">
               <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
@@ -62,9 +53,52 @@
       <file leaf-file-name="Launcher.class" pinned="false" current-in-tab="false">
         <entry file="jar://C:/developer_tools/Java/jdk1.8.0_45/jre/lib/rt.jar!/sun/misc/Launcher.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
+            <state relative-caret-position="5382">
               <caret line="262" column="24" lean-forward="false" selection-start-line="262" selection-start-column="17" selection-end-line="262" selection-end-column="31" />
-              <folding />
+              <folding>
+                <marker date="1603006754862" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1603006754862" expanded="false" signature="132:826" ph="..." />
+                <marker date="1603006754862" expanded="false" signature="1191:1202" ph=" { " />
+                <marker date="1603006754862" expanded="false" signature="1218:1224" ph=" }" />
+                <marker date="1603006754862" expanded="true" signature="1248:2704" ph="{...}" />
+                <marker date="1603006754862" expanded="false" signature="2745:2756" ph=" { " />
+                <marker date="1603006754862" expanded="false" signature="2775:2781" ph=" }" />
+                <marker date="1603006754862" expanded="false" signature="2837:2848" ph=" { " />
+                <marker date="1603006754862" expanded="false" signature="2888:2894" ph=" }" />
+                <marker date="1603006754862" expanded="true" signature="2945:3133" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="3187:4340" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="4379:4673" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="4730:7386" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="4917:5448" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="5190:5436" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="5245:5422" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="5503:5607" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="5700:6463" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="6536:6695" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="6767:6885" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="6984:7299" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="7316:7380" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="7433:8690" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="7513:7524" ph="{}" />
+                <marker date="1603006754862" expanded="true" signature="7541:8684" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="7707:8489" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="7748:8471" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="8747:12679" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="8834:9568" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="9036:9431" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="9114:9413" ph="{...}" />
+                <marker date="1603006754862" expanded="false" signature="9602:9617" ph=" { " />
+                <marker date="1603006754862" expanded="false" signature="9636:9646" ph=" }" />
+                <marker date="1603006754862" expanded="true" signature="9710:9885" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="9930:10467" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="10541:11197" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="11246:12188" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="12277:12592" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="12609:12673" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="12749:13302" ph="{...}" />
+                <marker date="1603006754862" expanded="true" signature="12841:12852" ph="{}" />
+                <marker date="1603006754862" expanded="true" signature="12922:13296" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +106,8 @@
       <file leaf-file-name="ClassLoaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +116,8 @@
       <file leaf-file-name="ClassLoaderTest02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,12 +125,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassLoaderTest03.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassLoaderTest03.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="401">
               <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeoStart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/java/lang/LeoStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +177,7 @@
         <option value="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest02.java" />
         <option value="$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest03.java" />
+        <option value="$PROJECT_DIR$/chapter02/src/main/java/java/lang/LeoStart.java" />
       </list>
     </option>
   </component>
@@ -170,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,10 +288,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tiza" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvmByAtguigu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvmByAtguigu" type="462c0819:PsiDirectoryNode" />
               <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvmByAtguigu" type="b2602c69:ProjectViewProjectNode" />
@@ -301,9 +355,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,32 +380,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderTest03">
+  <component name="RunManager" selected="Application.LeoStart">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ClassInitTestFatherSon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tiza.jvm.chapter02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tiza.jvm.chapter02.ClassInitTestFatherSon" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="chapter02" />
-      <envs />
     </configuration>
     <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -417,6 +453,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.tiza.jvm.chapter02.DeadThreadTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="chapter02" />
+      <envs />
+    </configuration>
+    <configuration name="LeoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="java.lang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="java.lang.LeoStart" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -503,19 +558,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ClassInitTestFatherSon" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DeadThreadTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ClassLoaderTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ClassLoaderTest02" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ClassLoaderTest03" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DeadThreadTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ClassLoaderTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClassLoaderTest02" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClassLoaderTest03" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LeoStart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ClassLoaderTest03" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ClassLoaderTest02" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ClassLoaderTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DeadThreadTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ClassInitTestFatherSon" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LeoStart" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClassLoaderTest03" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ClassLoaderTest02" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ClassLoaderTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DeadThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -534,12 +589,13 @@
       <updated>1609654115064</updated>
       <workItem from="1609654119078" duration="4961000" />
       <workItem from="1609767385875" duration="4506000" />
-      <workItem from="1609773428133" duration="4391000" />
+      <workItem from="1609773428133" duration="4473000" />
+      <workItem from="1609857406479" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13858000" />
+    <option name="totallyTimeSpent" value="15473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1618" height="868" extended-state="6" />
@@ -553,13 +609,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25337332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="jclasslib" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25937033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44103774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24287565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18069948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -571,7 +625,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="jclasslib" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -586,11 +642,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter11/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,10 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#146#147#0" expanded="false" />
-            <element signature="e#182#183#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,10 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,11 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <marker date="1609774631993" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1609774631993" expanded="true" signature="256:262" ph="{}" />
-            <marker date="1609774631993" expanded="true" signature="515:541" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="186" column="30" lean-forward="false" selection-start-line="186" selection-start-column="30" selection-end-line="186" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="186" column="30" lean-forward="true" selection-start-line="186" selection-start-column="30" selection-end-line="186" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3749">
           <caret line="186" column="30" lean-forward="false" selection-start-line="186" selection-start-column="30" selection-end-line="186" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,10 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#146#147#0" expanded="false" />
-            <element signature="e#182#183#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,10 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,11 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <marker date="1609774631993" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1609774631993" expanded="true" signature="256:262" ph="{}" />
-            <marker date="1609774631993" expanded="true" signature="515:541" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassInitTestFatherSon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="483">
           <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
@@ -952,7 +959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/DeadThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="299">
           <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
@@ -960,24 +967,67 @@
     </entry>
     <entry file="jar://C:/developer_tools/Java/jdk1.8.0_45/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
+        <state relative-caret-position="5382">
           <caret line="262" column="24" lean-forward="false" selection-start-line="262" selection-start-column="17" selection-end-line="262" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1603006754862" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1603006754862" expanded="false" signature="132:826" ph="..." />
+            <marker date="1603006754862" expanded="false" signature="1191:1202" ph=" { " />
+            <marker date="1603006754862" expanded="false" signature="1218:1224" ph=" }" />
+            <marker date="1603006754862" expanded="true" signature="1248:2704" ph="{...}" />
+            <marker date="1603006754862" expanded="false" signature="2745:2756" ph=" { " />
+            <marker date="1603006754862" expanded="false" signature="2775:2781" ph=" }" />
+            <marker date="1603006754862" expanded="false" signature="2837:2848" ph=" { " />
+            <marker date="1603006754862" expanded="false" signature="2888:2894" ph=" }" />
+            <marker date="1603006754862" expanded="true" signature="2945:3133" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="3187:4340" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="4379:4673" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="4730:7386" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="4917:5448" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="5190:5436" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="5245:5422" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="5503:5607" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="5700:6463" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="6536:6695" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="6767:6885" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="6984:7299" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="7316:7380" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="7433:8690" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="7513:7524" ph="{}" />
+            <marker date="1603006754862" expanded="true" signature="7541:8684" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="7707:8489" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="7748:8471" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="8747:12679" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="8834:9568" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="9036:9431" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="9114:9413" ph="{...}" />
+            <marker date="1603006754862" expanded="false" signature="9602:9617" ph=" { " />
+            <marker date="1603006754862" expanded="false" signature="9636:9646" ph=" }" />
+            <marker date="1603006754862" expanded="true" signature="9710:9885" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="9930:10467" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="10541:11197" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="11246:12188" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="12277:12592" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="12609:12673" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="12749:13302" ph="{...}" />
+            <marker date="1603006754862" expanded="true" signature="12841:12852" ph="{}" />
+            <marker date="1603006754862" expanded="true" signature="12922:13296" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,9 +1036,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/tiza/jvm/chapter02/ClassLoaderTest03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="401">
           <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/java/lang/LeoStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
