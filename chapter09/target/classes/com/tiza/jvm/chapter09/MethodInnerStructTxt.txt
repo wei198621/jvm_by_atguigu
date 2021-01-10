@@ -1,0 +1,227 @@
+Classfile /C:/workspace/workspace_idea/jvmByAtguigu/chapter09/target/classes/com/tiza/jvm/chapter09/MethodInnerStructTest.class
+  Last modified 2021-1-10; size 1599 bytes
+  MD5 checksum 769eba3476f56d033cb2f9ca5c25296e
+  Compiled from "MethodInnerStructTest.java"
+public class com.tiza.jvm.chapter09.MethodInnerStructTest extends java.lang.Object implements java.lang.Comparable<java.lang.String>, java.io.Serializable
+  minor version: 0
+  major version: 49
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #18.#50        // java/lang/Object."<init>":()V
+   #2 = Fieldref           #17.#51        // com/tiza/jvm/chapter09/MethodInnerStructTest.num:I
+   #3 = Fieldref           #52.#53        // java/lang/System.out:Ljava/io/PrintStream;
+   #4 = Class              #54            // java/lang/StringBuilder
+   #5 = Methodref          #4.#50         // java/lang/StringBuilder."<init>":()V
+   #6 = String             #55            // count=
+   #7 = Methodref          #4.#56         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #8 = Methodref          #4.#57         // java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+   #9 = Methodref          #4.#58         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #10 = Methodref          #59.#60        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #11 = Class              #61            // java/lang/Exception
+  #12 = Methodref          #11.#62        // java/lang/Exception.printStackTrace:()V
+  #13 = Class              #63            // java/lang/String
+  #14 = Methodref          #17.#64        // com/tiza/jvm/chapter09/MethodInnerStructTest.compareTo:(Ljava/lang/String;)I
+  #15 = String             #65            // ���Է������ڲ��ṹ
+  #16 = Fieldref           #17.#66        // com/tiza/jvm/chapter09/MethodInnerStructTest.str:Ljava/lang/String;
+  #17 = Class              #67            // com/tiza/jvm/chapter09/MethodInnerStructTest
+  #18 = Class              #68            // java/lang/Object
+  #19 = Class              #69            // java/lang/Comparable
+  #20 = Class              #70            // java/io/Serializable
+  #21 = Utf8               num
+  #22 = Utf8               I
+  #23 = Utf8               str
+  #24 = Utf8               Ljava/lang/String;
+  #25 = Utf8               <init>
+  #26 = Utf8               ()V
+  #27 = Utf8               Code
+  #28 = Utf8               LineNumberTable
+  #29 = Utf8               LocalVariableTable
+  #30 = Utf8               this
+  #31 = Utf8               Lcom/tiza/jvm/chapter09/MethodInnerStructTest;
+  #32 = Utf8               test1
+  #33 = Utf8               count
+  #34 = Utf8               test2
+  #35 = Utf8               (I)I
+  #36 = Utf8               value
+  #37 = Utf8               e
+  #38 = Utf8               Ljava/lang/Exception;
+  #39 = Utf8               cal
+  #40 = Utf8               result
+  #41 = Utf8               compareTo
+  #42 = Utf8               (Ljava/lang/String;)I
+  #43 = Utf8               o
+  #44 = Utf8               (Ljava/lang/Object;)I
+  #45 = Utf8               <clinit>
+  #46 = Utf8               Signature
+  #47 = Utf8               Ljava/lang/Object;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/io/Serializable;
+  #48 = Utf8               SourceFile
+  #49 = Utf8               MethodInnerStructTest.java
+  #50 = NameAndType        #25:#26        // "<init>":()V
+  #51 = NameAndType        #21:#22        // num:I
+  #52 = Class              #71            // java/lang/System
+  #53 = NameAndType        #72:#73        // out:Ljava/io/PrintStream;
+  #54 = Utf8               java/lang/StringBuilder
+  #55 = Utf8               count=
+  #56 = NameAndType        #74:#75        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #57 = NameAndType        #74:#76        // append:(I)Ljava/lang/StringBuilder;
+  #58 = NameAndType        #77:#78        // toString:()Ljava/lang/String;
+  #59 = Class              #79            // java/io/PrintStream
+  #60 = NameAndType        #80:#81        // println:(Ljava/lang/String;)V
+  #61 = Utf8               java/lang/Exception
+  #62 = NameAndType        #82:#26        // printStackTrace:()V
+  #63 = Utf8               java/lang/String
+  #64 = NameAndType        #41:#42        // compareTo:(Ljava/lang/String;)I
+  #65 = Utf8               ���Է������ڲ��ṹ
+  #66 = NameAndType        #23:#24        // str:Ljava/lang/String;
+  #67 = Utf8               com/tiza/jvm/chapter09/MethodInnerStructTest
+  #68 = Utf8               java/lang/Object
+  #69 = Utf8               java/lang/Comparable
+  #70 = Utf8               java/io/Serializable
+  #71 = Utf8               java/lang/System
+  #72 = Utf8               out
+  #73 = Utf8               Ljava/io/PrintStream;
+  #74 = Utf8               append
+  #75 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #76 = Utf8               (I)Ljava/lang/StringBuilder;
+  #77 = Utf8               toString
+  #78 = Utf8               ()Ljava/lang/String;
+  #79 = Utf8               java/io/PrintStream
+  #80 = Utf8               println
+  #81 = Utf8               (Ljava/lang/String;)V
+  #82 = Utf8               printStackTrace
+{
+//  02  域信息
+  public int num;
+    descriptor: I
+    flags: ACC_PUBLIC
+
+  private static java.lang.String str;
+    descriptor: Ljava/lang/String;
+    flags: ACC_PRIVATE, ACC_STATIC
+
+//03  方法信息    （包含构造器及方法 ）
+  public com.tiza.jvm.chapter09.MethodInnerStructTest();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        10
+         7: putfield      #2                  // Field num:I
+        10: return
+      LineNumberTable:
+        line 9: 0
+        line 12: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lcom/tiza/jvm/chapter09/MethodInnerStructTest;
+
+  public void test1();
+    descriptor: ()V    // V =void
+    flags: ACC_PUBLIC
+    Code:   // stack=3  操作数栈的深度=3   局部变量表的长度=2   args_size=1 就是本身 this
+      stack=3, locals=2, args_size=1
+         0: bipush        20
+         2: istore_1
+         3: getstatic     #3                  // Field java/lang/System.out:Ljava/io/PrintStream;
+         6: new           #4                  // class java/lang/StringBuilder
+         9: dup
+        10: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+        13: ldc           #6                  // String count=
+        15: invokevirtual #7                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        18: iload_1
+        19: invokevirtual #8                  // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        22: invokevirtual #9                  // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        25: invokevirtual #10                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        28: return
+      LineNumberTable:
+        line 17: 0
+        line 18: 3
+        line 19: 28
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      29     0  this   Lcom/tiza/jvm/chapter09/MethodInnerStructTest;
+            3      26     1 count   I
+
+  public static int test2(int);
+    descriptor: (I)I
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=3, args_size=1
+         0: iconst_0
+         1: istore_1
+         2: bipush        30
+         4: istore_2
+         5: iload_2
+         6: iload_0
+         7: idiv
+         8: istore_1
+         9: goto          17
+        12: astore_2
+        13: aload_2
+        14: invokevirtual #12                 // Method java/lang/Exception.printStackTrace:()V
+        17: iload_1
+        18: ireturn
+      Exception table:
+         from    to  target type
+             2     9    12   Class java/lang/Exception
+      LineNumberTable:
+        line 21: 0
+        line 23: 2
+        line 24: 5
+        line 27: 9
+        line 25: 12
+        line 26: 13
+        line 28: 17
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            5       4     2 value   I
+           13       4     2     e   Ljava/lang/Exception;
+            0      19     0   cal   I
+            2      17     1 result   I
+
+  public int compareTo(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: iconst_0
+         1: ireturn
+      LineNumberTable:
+        line 32: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       2     0  this   Lcom/tiza/jvm/chapter09/MethodInnerStructTest;
+            0       2     1     o   Ljava/lang/String;
+
+  public int compareTo(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)I
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: checkcast     #13                 // class java/lang/String
+         5: invokevirtual #14                 // Method compareTo:(Ljava/lang/String;)I
+         8: ireturn
+      LineNumberTable:
+        line 9: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lcom/tiza/jvm/chapter09/MethodInnerStructTest;
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: ldc           #15                 // String ���Է������ڲ��ṹ
+         2: putstatic     #16                 // Field str:Ljava/lang/String;
+         5: return
+      LineNumberTable:
+        line 13: 0
+}
+Signature: #47                          // Ljava/lang/Object;Ljava/lang/Comparable<Ljava/lang/String;>;Ljava/io/Serializable;
+SourceFile: "MethodInnerStructTest.java"

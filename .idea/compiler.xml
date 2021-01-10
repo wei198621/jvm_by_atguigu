@@ -36,7 +36,6 @@
       <module name="chapter10" target="1.5" />
       <module name="chapter11" target="1.5" />
       <module name="chapter18" target="1.5" />
-      <module name="chatper05" target="1.5" />
       <module name="jvmByAtguigu" target="1.5" />
     </bytecodeTargetLevel>
   </component>
