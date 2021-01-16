@@ -46,7 +46,7 @@
       <module name="chapter14" target="1.5" />
       <module name="chapter15" target="1.5" />
       <module name="chapter16" target="1.5" />
-      <module name="chapter17" target="1.5" />
+      <module name="chapter17" target="1.8" />
       <module name="chapter18" target="1.5" />
       <module name="jvmByAtguigu" target="1.5" />
     </bytecodeTargetLevel>
