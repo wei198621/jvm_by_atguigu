@@ -8,7 +8,8 @@ import java.util.ArrayList;
  * -XX:+PrintCommandLineFlags             ----- 1
  * jinfo -flag UseParallelGC 21476        ----- 2
  *
- *
+ * -XX:+PrintCommandLineFlags  -XX:+UseSerialGC
+ * 新生代用Serial GC; 老年代用 Serial Old GC
  *
 -XX:InitialHeapSize=266089344 -XX:MaxHeapSize=4257429504
 -XX:+PrintCommandLineFlags -XX:+UseCompressedClassPointers -XX:+UseCompressedOops

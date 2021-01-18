@@ -25,6 +25,10 @@
         <module name="chapter16" />
         <module name="chapter17" />
         <module name="chapter18" />
+        <module name="chapter21" />
+        <module name="chapter22" />
+        <module name="chapter23" />
+        <module name="chapter24" />
         <module name="chatper05" />
         <module name="jvmByAtguigu" />
       </profile>
@@ -46,8 +50,12 @@
       <module name="chapter14" target="1.5" />
       <module name="chapter15" target="1.5" />
       <module name="chapter16" target="1.5" />
-      <module name="chapter17" target="1.8" />
+      <module name="chapter17" target="1.5" />
       <module name="chapter18" target="1.5" />
+      <module name="chapter21" target="1.5" />
+      <module name="chapter22" target="1.5" />
+      <module name="chapter23" target="1.5" />
+      <module name="chapter24" target="1.5" />
       <module name="jvmByAtguigu" target="1.5" />
     </bytecodeTargetLevel>
   </component>

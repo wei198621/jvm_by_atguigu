@@ -20,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/chapter16/chapter16.iml" filepath="$PROJECT_DIR$/chapter16/chapter16.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter17/chapter17.iml" filepath="$PROJECT_DIR$/chapter17/chapter17.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter18/chapter18.iml" filepath="$PROJECT_DIR$/chapter18/chapter18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter21/chapter21.iml" filepath="$PROJECT_DIR$/chapter21/chapter21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter22/chapter22.iml" filepath="$PROJECT_DIR$/chapter22/chapter22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter23/chapter23.iml" filepath="$PROJECT_DIR$/chapter23/chapter23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter24/chapter24.iml" filepath="$PROJECT_DIR$/chapter24/chapter24.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvmByAtguigu.iml" filepath="$PROJECT_DIR$/jvmByAtguigu.iml" />
     </modules>
   </component>
