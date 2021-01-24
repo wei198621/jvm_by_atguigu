@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba1f0420-2ad5-4b06-b9b6-46edac0c259b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ArithmeticTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ClassCastTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/LoadAndStoreTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/NewTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/chapter22/chapter22.iml" afterPath="$PROJECT_DIR$/chapter22/chapter22.iml" />
-      <change beforePath="$PROJECT_DIR$/chapter22/pom.xml" afterPath="$PROJECT_DIR$/chapter22/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/chapter22/target/classes/com/tiza/jvm/chapter22/ArithmeticTest.class" afterPath="$PROJECT_DIR$/chapter22/target/classes/com/tiza/jvm/chapter22/ArithmeticTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,102 +40,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IntegerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter21/src/main/java/com/tiza/jvm/chapter21/IntegerTest.java">
+      <file leaf-file-name="NewTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/NewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1541">
-              <caret line="67" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter21/src/main/java/com/tiza/jvm/chapter21/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SonTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter21/src/main/java/com/tiza/jvm/chapter21/SonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
+            <state relative-caret-position="156">
+              <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding>
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadAndStoreTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/LoadAndStoreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArithmeticTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ArithmeticTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassCastTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ClassCastTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="98" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Double.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/developer_tools/Java/jdk1.8.0_45/src.zip!/java/lang/Double.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter22/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/developer_tools/Java/jdk1.8.0_45/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19596">
-              <caret line="892" column="20" lean-forward="false" selection-start-line="892" selection-start-column="15" selection-end-line="892" selection-end-column="20" />
-              <folding>
-                <element signature="e#33891#33892#0" expanded="true" />
-                <element signature="e#33919#33920#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter08/src/main/java/com/tiza/jvm/chapter08/YoungOldAreaTest.java" />
         <option value="$PROJECT_DIR$/chapter08/src/main/java/com/tiza/jvm/chapter08/TLABArgsTest.java" />
         <option value="$PROJECT_DIR$/chapter08/src/main/java/com/tiza/jvm/chapter08/HeapArgsTest.java" />
         <option value="$PROJECT_DIR$/chapter08/src/main/java/com/tiza/jvm/chapter08/EscapeAnalysis.java" />
@@ -224,6 +133,7 @@
         <option value="$PROJECT_DIR$/chapter22/pom.xml" />
         <option value="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ArithmeticTest.java" />
         <option value="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ClassCastTest.java" />
+        <option value="$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/NewTest.java" />
       </list>
     </option>
   </component>
@@ -242,10 +152,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-9" />
-    <option name="width" value="1618" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="415" />
+    <option name="y" value="271" />
+    <option name="width" value="1942" />
     <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -264,9 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,6 +304,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -423,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticTest.method1">
+  <component name="RunManager" selected="Application.NewTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -483,14 +393,14 @@
       <module name="chapter21" />
       <envs />
     </configuration>
-    <configuration name="PhantomReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tiza.jvm.chapter16.*" />
+          <option name="PATTERN" value="com.tiza.jvm.chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tiza.jvm.chapter16.PhantomReferenceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tiza.jvm.chapter22.NewTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -499,7 +409,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="chapter16" />
+      <module name="chapter22" />
       <envs />
     </configuration>
     <configuration name="SonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -656,19 +566,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.GCTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.YoungOldAreaTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PhantomReferenceTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GCUseTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IntegerTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.StringTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ArithmeticTest.method1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GCUseTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IntegerTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ArithmeticTest.method1" />
+      <item index="6" class="java.lang.String" itemvalue="Application.NewTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArithmeticTest.method1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IntegerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GCUseTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PhantomReferenceTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NewTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArithmeticTest.method1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IntegerTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GCUseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -706,7 +616,8 @@
       <workItem from="1611011543739" duration="3802000" />
       <workItem from="1611060424751" duration="2044000" />
       <workItem from="1611145759680" duration="607000" />
-      <workItem from="1611321133270" duration="6943000" />
+      <workItem from="1611321133270" duration="8154000" />
+      <workItem from="1611490310885" duration="2444000" />
     </task>
     <servers />
   </component>
@@ -743,35 +654,35 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125264000" />
+    <option name="totallyTimeSpent" value="128919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1618" height="868" extended-state="6" />
+    <frame x="415" y="271" width="1942" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2293853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2293853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26536733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="jclasslib" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5764249" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41829085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="jclasslib" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48447537" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17391305" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25647667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14561027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36731634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36731634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -836,13 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter11/src/main/java/com/tiza/jvm/chapter11/MaxDirectMemorySizeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter12/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1095,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +1065,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/LoadAndStoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="460">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
@@ -1178,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ArithmeticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="1058">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#829#830#0" expanded="true" />
@@ -1189,17 +1092,30 @@
     </entry>
     <entry file="jar://C:/developer_tools/Java/jdk1.8.0_45/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="828">
+          <caret line="61" column="62" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/ClassCastTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="98" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter22/src/main/java/com/tiza/jvm/chapter22/NewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
