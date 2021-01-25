@@ -53,7 +53,7 @@
       <module name="chapter17" target="1.5" />
       <module name="chapter18" target="1.5" />
       <module name="chapter21" target="1.5" />
-      <module name="chapter22" target="1.5" />
+      <module name="chapter22" target="1.8" />
       <module name="chapter23" target="1.5" />
       <module name="chapter24" target="1.5" />
       <module name="jvmByAtguigu" target="1.5" />
