@@ -139,4 +139,166 @@ public class IfSwitchForGotoTest {
         System.out.println(obj1!=obj2);
     }
 
+    //  switch test   多条件分支跳转
+
+    /**
+     0 iload_1
+     1 tableswitch 1 to 3	1:  28 (+27)
+     2:  34 (+33)
+     3:  40 (+39)
+     default:  46 (+45)
+     28 bipush 10
+     30 istore_2
+     31 goto 49 (+18)
+     34 bipush 20
+     36 istore_2
+     37 goto 49 (+12)
+     40 bipush 30
+     42 istore_2
+     43 goto 49 (+6)
+     46 bipush 40
+     48 istore_2
+     49 return
+
+     * @param select
+     */
+
+    public void switch1(int select){
+        int num;
+        switch (select) {
+            case 1:
+                num = 10;
+                break;
+            case 2:
+                num = 20;
+                break;
+            case 3:
+                num = 30;
+                break;
+            default:
+                num = 40;
+        }
+    }
+
+
+    /**
+     0 iload_1
+     1 lookupswitch 3
+     100:  36 (+35)
+     200:  48 (+47)
+     500:  42 (+41)
+     default:  54 (+53)
+     36 bipush 10
+     ... ...
+     * @param select
+     */
+    public void switch2(int select){
+        int num;
+        switch (select) {
+            case 100:
+                num = 10;
+                break;
+            case 500:
+                num = 20;
+                break;
+            case 200:
+                num = 30;
+                break;
+            default:
+                num = 40;
+        }
+    }
+
+    //JDK 7 新特性： 引入String 类型
+
+    /**
+     0 aload_1
+     1 astore_2
+     2 iconst_m1
+     3 istore_3
+     4 aload_2
+     5 invokevirtual #9 <java/lang/String.hashCode>
+     8 lookupswitch 4
+     -1842350579:  52 (+44)
+     -1837878353:  66 (+58)
+     -1734407483:  94 (+86)
+     1941980694:  80 (+72)
+     default:  105 (+97)
+     52 aload_2
+     ...
+     * @param season
+     */
+    public void switch3(String season){
+        switch(season){
+            case "SPRING": break;
+            case "SUMMER": break;
+            case "AUTUMN": break;
+            case "WINTER": break;
+        }
+    }
+
+
+    // 4 无条件跳转指令
+
+    /**
+     0 dconst_0
+     1 dstore_1
+     2 dload_1
+     3 ldc2_w #16 <100.1>
+     6 dcmpg
+     7 ifge 20 (+13)
+     10 ldc #15 <atguigu.com>
+     12 astore_3
+     13 dload_1
+     14 dconst_1
+     15 dadd
+     16 dstore_1
+     17 goto 2 (-15)  ------------goto 指令
+     20 return
+
+     */
+    public void whileInt(){
+        int i=0;
+        while(i<100){
+            String s="atguigu.com";
+            i++;
+        }
+    }
+
+    public void whileDouble(){
+        double d=0.0;
+        while(d<100.1){
+            String s="atguigu.com";
+            d++;
+        }
+    }
+
+    public void printFor(){
+        short i;
+        for (i = 0; i < 100; i++) {
+            String s="atguigu.com";
+        }
+    }
+
+
+    public void whileTest(){
+        int i=1;
+        while(i<=100){
+            i++;
+        }
+    }
+
+    public void forTest(){
+        for (int i = 0; i < 100; i++) {
+
+        }
+    }
+
+    public void doWhileTest(){
+        int i=1;
+        do{
+            i++;
+        }while (i<=100);
+    }
+
 }
